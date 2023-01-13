@@ -54,7 +54,7 @@ cd ./data/ntu # or cd ./data/ntu120
 Training
 - Change the config file depending on what you want.
 ```
-# Example: training PAT-Net on NTU RGB+D 60 cross subject
+# Example: training RAS-Net on NTU RGB+D 60 cross subject
  python main.py --config ./config/nturgbd-cross-subject/joint.yaml
  python main.py --config ./config/nturgbd-cross-subject/bone.yaml
  python main.py --config ./config/nturgbd-cross-subject/joint_motion.yaml
