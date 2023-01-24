@@ -2,6 +2,8 @@
  The RSA-Net contains a whitened pairwise self-attention, unary self-attention and position attention as independent functions and different projection matrices for learning representative action features.  The whitened pairwise self-attention captures the influence of a single key joint specifically on another query joint, and the unary self-attention models the general impact of one key joint over all other query joints to learn the discriminative action features. Furthermore, we design a position attention learning module that computes the correlation between  action semantics and position information separately with different projection matrices. 
 
 
+## Main function and  modules source  code
+The main function and  modules source  code will be released for future work and to facilitate communication
 
 ## Python >= 3.6
 
@@ -66,14 +68,14 @@ Testing
 python main.py --config <work_dir>/config.yaml --work-dir <work_dir> --phase test --save-score True --weights <work_dir>/weight.pt
 
 ```
-- To ensemble the results of different modalities, run
- ```
- python ensemble.py 
- ```
+
  ## Acknowledgements
  This repo is based on [2s-AGCN](https://github.com/lshiwjx/2s-AGCN) and [ST-TR](https://github.com/). The data processing is borrowed from [SGN](https://github.com/microsoft/SGN)
 
 Thanks to the original authors for their work!
+
+
+
 
 # Contact
 For any questions, feel free to contact: `alemugedamu@gmail.com`
