@@ -70,7 +70,7 @@ python main.py --config <work_dir>/config.yaml --work-dir <work_dir> --phase tes
 ```
 ## Visualization and Analysis
 
-![image](https://user-images.githubusercontent.com/30148450/222914770-bf621407-b0a6-4246-9bbc-6e27a435e0bd.jpg),width="50"
+![image](https://user-images.githubusercontent.com/30148450/222914770-bf621407-b0a6-4246-9bbc-6e27a435e0bd.jpg)
 
 
  ## Acknowledgements
