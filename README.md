@@ -1,4 +1,7 @@
-## RSA-Net (Relation-mining  self-attention Network for Skeleton Based Human Action Recognition)
+## RSA-Net 
+
+Relation-mining self-attention Network for Skeleton-Based Human Action Recognition" was published in the Pattern Recognition journal. The paper can be found at the following link: https://www.sciencedirect.com/science/article/pii/S0031320323001553.
+
  The RSA-Net contains a whitened pairwise self-attention, unary self-attention and position attention as independent functions and different projection matrices for learning representative action features.  The whitened pairwise self-attention captures the influence of a single key joint specifically on another query joint, and the unary self-attention models the general impact of one key joint over all other query joints to learn the discriminative action features. Furthermore, we design a position attention learning module that computes the correlation between  action semantics and position information separately with different projection matrices. 
 
 
